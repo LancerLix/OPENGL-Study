@@ -13,21 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\glad">
+      <UniqueIdentifier>{b353931e-2db1-43a3-a558-d3a7a74205b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\KHR">
+      <UniqueIdentifier>{894bdab6-88a8-4325-bf6d-3d61e045a320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\glad">
+      <UniqueIdentifier>{0e10a8b4-24b2-4999-8fb0-4b92e3f689cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\HelloWindow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\glad.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="src\glad\glad.c">
+      <Filter>源文件\glad</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\glad\glad.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\glad</Filter>
     </ClInclude>
     <ClInclude Include="include\KHR\khrplatform.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\KHR</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

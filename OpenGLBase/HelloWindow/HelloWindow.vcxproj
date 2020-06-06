@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\glad\glad.c" />
     <ClCompile Include="src\HelloWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -82,7 +82,7 @@
     <LibraryPath>E:\OPENGL\glfw-3.3\BUILD\src\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\OPENGL\glfw-3.3\include;E:\Visual Studio Workspace\OpenGLBase\HelloWindow\include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\OPENGL\glfw-3.3\include;E:\Github_Local_Repo\OPENGL-Study\OpenGLBase\HelloWindow\include;$(IncludePath)</IncludePath>
     <LibraryPath>E:\OPENGL\glfw-3.3\BUILD\src\Debug;$(LibraryPath)</LibraryPath>
     <ExcludePath>$(ExcludePath)</ExcludePath>
   </PropertyGroup>

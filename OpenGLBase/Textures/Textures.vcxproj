@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{7261F757-5F8D-4009-8319-534A0AA03335}</ProjectGuid>
-    <RootNamespace>HelloTriangle</RootNamespace>
+    <ProjectGuid>{FAF18C56-2863-4E71-B36F-FA043409419D}</ProjectGuid>
+    <RootNamespace>Textures</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\OPENGL\glfw-3.3\include;E:\Github_Local_Repo\OPENGL-Study\OpenGLBase\HelloTriangle\include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\OPENGL\glfw-3.3\include;E:\Github_Local_Repo\OPENGL-Study\OpenGLBase\Textures\include;$(IncludePath)</IncludePath>
     <LibraryPath>E:\OPENGL\glfw-3.3\BUILD\src\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -129,10 +129,15 @@
   <ItemGroup>
     <ClInclude Include="include\glad\glad.h" />
     <ClInclude Include="include\KHR\khrplatform.h" />
+    <ClInclude Include="include\stb\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\glad\glad.c" />
-    <ClCompile Include="src\HelloTriangle.cpp" />
+    <ClCompile Include="src\stb\stb_image.cpp" />
+    <ClCompile Include="src\Textures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\img\texture.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

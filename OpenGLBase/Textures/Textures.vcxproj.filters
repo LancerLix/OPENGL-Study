@@ -13,14 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\glad">
-      <UniqueIdentifier>{a2ab5d8e-7e76-4315-88ed-7c5a5d802568}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\glad">
-      <UniqueIdentifier>{c00f7866-3c0f-4cc2-be7f-473cb51fc8d2}</UniqueIdentifier>
+      <UniqueIdentifier>{7c70cd23-202d-48d3-a77b-55872c87892c}</UniqueIdentifier>
     </Filter>
     <Filter Include="头文件\KHR">
-      <UniqueIdentifier>{6e5bda5e-2e76-4451-a557-11fa393f6c29}</UniqueIdentifier>
+      <UniqueIdentifier>{b44e9717-bbd3-4a71-9e2d-c1d35a6c04c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\stb">
+      <UniqueIdentifier>{a1e5a776-a816-4907-b41c-b3c372f95057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\glad">
+      <UniqueIdentifier>{a83c7833-1edf-45a4-84f7-18729875c1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\stb">
+      <UniqueIdentifier>{4d76d12b-3e5b-44e8-a500-366e0f9ca53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img">
+      <UniqueIdentifier>{3cc65303-be04-4b12-8267-0260e3ab373e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,13 +39,24 @@
     <ClInclude Include="include\KHR\khrplatform.h">
       <Filter>头文件\KHR</Filter>
     </ClInclude>
+    <ClInclude Include="include\stb\stb_image.h">
+      <Filter>头文件\stb</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\HelloTriangle.cpp">
+    <ClCompile Include="src\Textures.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\glad\glad.c">
       <Filter>源文件\glad</Filter>
     </ClCompile>
+    <ClCompile Include="src\stb\stb_image.cpp">
+      <Filter>源文件\stb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\img\texture.jpg">
+      <Filter>资源文件\img</Filter>
+    </Image>
   </ItemGroup>
 </Project>
