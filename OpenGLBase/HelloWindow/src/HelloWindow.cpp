@@ -37,7 +37,7 @@ int main()
 	}
 
 	// 设置当前线程的OpenGL上下文为glfw窗口的OpenGL上下文
-	// (将glfw窗口对应的Surface绑定到OpenGL上下文，并且把OpenGL上下文绑定到当前线程,渲染时通过当前线程拿到线程对应的OpenGL上下文完成渲染)
+	// (将glfw窗口对应的EGLSurface绑定到OpenGL上下文，并且把OpenGL上下文绑定到当前线程,渲染时通过当前线程拿到线程对应的OpenGL上下文完成渲染)
 	glfwMakeContextCurrent(window);
 
 	// 在调用OPENGL函数前初始化glad
